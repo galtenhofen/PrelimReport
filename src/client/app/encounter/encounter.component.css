@@ -1,0 +1,168 @@
+thead{
+    color: #337AB7;
+      width: 100%;
+      vertical-align: middle;
+}
+
+table{
+    /*table-layout: fixed;*/
+    width:  100%;
+    border-collapse: collapse;
+    white-space: nowrap;
+}
+th{
+    text-align: center;
+    vertical-align: center;
+    vertical-align: middle;
+    height: 40px;
+
+}
+
+td{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding: 0px;
+}
+/*
+.table > tbody > tr > td {
+     vertical-align: middle;
+     padding-left: 5px;
+     padding-right: 5px;
+     padding-top: 0px;
+     padding-bottom: 0px;
+     line-height: 10px !important;
+}
+
+.table > tbody > tr {
+   height: 20px !important;
+   padding: 0px !important;
+
+}
+*/
+.tdContainer{
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+}
+
+
+#fillerRow{
+    height: 20px;
+}
+
+#standardBtn{
+ border: 2px solid white;
+ border-radius: 10px;
+}
+
+#allBtn{
+ border: 2px solid white;
+ border-radius: 10px;
+}
+
+#noneBtn{
+ border: 2px solid white;
+ border-radius: 10px;
+}
+#getBtn{
+ border: 2px solid white;
+ border-radius: 10px;
+}
+
+#dfgLbl{
+    text-align:left;
+    padding-top: 10px;
+    float: left
+}
+
+#dfginput{
+    width: 100px;
+    text-align:left;
+    padding-top: 10px;
+    float: left
+}
+
+#standardButton{
+    width: 10%;
+    text-align:left;
+    padding-top: 10px;
+    float: left
+}
+
+#allButton{
+    width: 10%;
+    text-align:left;
+    padding-top: 10px;
+    float: left
+}
+
+#noneButton{
+    width: 10%;
+    text-align:left;
+    padding-top: 10px;
+    float: left
+}
+/*
+input { 
+    text-align: center; 
+    font-size: 120%;
+}*/
+
+input::-webkit-input-placeholder {
+font-size: 70% !important;
+}
+ 
+input:-moz-placeholder { /* Firefox 18- */
+font-size: 70% !important;  
+}
+ 
+input::-moz-placeholder {  /* Firefox 19+ */
+font-size: 70% !important;  
+}
+ 
+input:-ms-input-placeholder {  
+font-size: 70% !important;  
+}
+
+.form-control-inline {
+    min-width: 0;
+    height: 95%;
+    width: 75%;
+    text-align: center; 
+    font-size: 120%;
+}
+/*
+#btnHeaders{
+    height: 50px;
+}
+
+.panel-heading{
+    height: 50px;
+}
+.row{
+    height: 48px;
+}*/
+
+/*
+.radio-toolbar input[type="radio"]:checked + label {
+    border-radius: 10px;
+    background-color:deepskyblue;
+    border: 2px solid white
+}*/
+
+#encountersTable{
+ /* table-layout: fixed;*/
+  /*   width:  60%;*/
+    border-collapse: collapse;
+    white-space: nowrap;
+}
+
+.scrollingTable {
+            display: inline-block;
+            overflow-y: auto;
+            max-height:500px;
+            min-height:500px;
+            width:auto;
+        }
+
