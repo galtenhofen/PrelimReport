@@ -60,7 +60,7 @@
          <!--        <tbody *ngIf='!loading && (encounters && encounters.length > 0) && !errorMessage'> -->
              <tbody *ngIf='!loading && encounters  && !errorMessage'> 
                 <tr *ngFor='let encounter of encounters; let i = index;'  >
-                    <td class="vertAlign"><input #updateCheckbox type="checkbox" style="height:10px" id="updateCheckbox" (change)="onToggleUpdate(encounter.jsxid,updateCheckbox.checked)" ></td>
+                    <td><div class="vertAlign"><input #updateCheckbox style="height:auto" type="checkbox" id="updateCheckbox" (change)="onToggleUpdate(encounter.jsxid,updateCheckbox.checked)" ></div></td>
                     
                     <!--<td style="text-align:center" (click)="generateURL(encounter.encounterGroupType)"><a href="" target="_blank">{{encounter.encounterGroup}}</a></td>--> 
                     
