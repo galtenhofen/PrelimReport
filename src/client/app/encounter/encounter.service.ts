@@ -13,7 +13,7 @@ import 'rxjs/Rx';
 @Injectable()
 export class EncounterService {
   loading:boolean; 
-  private encounterUrl = '/assets'; 
+  private encounterUrl = '/assets/reports.json'; 
   /**
    * Creates a new EncounterService with the injected Http.
    * @param {Http} http - The injected Http.
@@ -35,7 +35,6 @@ export class EncounterService {
   }
 
    postReportList(reports:any) {
-                console.log('IN postUpdates  updates: ' + reports);
                 let body = JSON.stringify(reports);
                 let headers = new Headers({ 'Content-Type': 'application/json' });
                 let options = new RequestOptions({ headers: headers });

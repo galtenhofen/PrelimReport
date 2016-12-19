@@ -269,12 +269,16 @@ onClickrefreshEncounterList(): void{
     }
 
     onClickSubmit(): void{
-        console.log('IN onClickSubmit  ');
+        console.log('IN onClickSubmit - Reports to send:' + JSON.stringify(this.reportList));
    
+    if(confirm('Are you sure you want to submit the selected reports and close the Prelim Reports App?')){
+
                 this._encounterService.postReportList(this.reportList)
                 .subscribe(
                     data => this.postUpdates = JSON.stringify(data), 
                     error => this.errorMessage = <any>error);
+
+                    }
     }
 
 

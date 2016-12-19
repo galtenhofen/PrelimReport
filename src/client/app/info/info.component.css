@@ -1,0 +1,41 @@
+.formContainer{
+  padding-top: 20px;
+}
+
+#facility{
+  width: 300px;
+}
+
+#groupId{
+  width: 100px;
+}
+
+#dataFileGroupId{
+  width: 100px;
+}
+
+#cdmVersion{
+  width: 100px;
+}
+
+#disStart{
+  width: 160px;
+}
+
+#disEnd{
+  width: 160px;
+}
+
+#contract{
+  vertical-align: middle;
+  height: 30px;
+}
+
+#notes{
+  width: 300px;
+}
+
+.radio-inline{
+  padding-right: 15px;
+}
+
