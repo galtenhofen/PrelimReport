@@ -4,7 +4,7 @@ import { HomeComponent } from './home.component';
 
 @NgModule({
   imports: [
-    RouterModule.forChild([
+    RouterModule.forRoot([
       { path: '', component: HomeComponent }
     ])
   ],
